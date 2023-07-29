@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-## `npm install react-bootstrap bootstrap`
+### `npm install react-bootstrap bootstrap`
 To install React-Bootstrap modules to run the project locally
 
 ### `npm start`
