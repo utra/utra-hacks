@@ -1,5 +1,6 @@
 # utra-hacks
 The main website for UTRA Hacks, a hackathon organized by the University of Toronto's Robotics Association.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -7,6 +8,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+## `npm install react-bootstrap bootstrap`
+To install React-Bootstrap modules to run the project locally
 
 ### `npm start`
 
