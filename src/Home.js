@@ -9,7 +9,7 @@ import './Home.css';
 function Home() {
   return (
     <div className = "bg text text-center pt-5">   
-      <h1 className="pb-4">Welcome to UTRAHacks!</h1>
+      <h1 className="pb-4">Welcome to UTRA Hacks!</h1>
       <img className = "pt-3 pb-5" src= {toronto_skyline} alt = "Toronto Syline"/>
       <h2 className="pt-3">UTRAHacks 2023</h2>
       <h5>November 4-5, 2023</h5>

@@ -1,0 +1,56 @@
+/* PersonCard.css */
+.person-card {
+  position: relative;
+  margin: 5px;
+  padding: 8px;
+  width: calc(25% - 20px);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.person-card:hover {
+  transform: scale(1.05);
+}
+
+.person-photo {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s, opacity 0.3s; /* Added opacity transition */
+  opacity: 1; /* Initially set to fully visible */
+}
+
+.person-card:hover .person-photo.translucent {
+  opacity: 0.8; /* Make the photo translucent on hover */
+}
+
+.person-name {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(128, 0, 128, 0.8); /* Purple translucent background */
+  color: white; /* Text color */
+  font-weight: bold;
+  border-radius: 10px;
+  transform: translateY(-50%) translateX(0); /* Center vertically and reset X translation */
+  transition: transform 0.3s, opacity 0.3s; /* Added opacity transition */
+  opacity: 0; /* Initially hidden */
+  text-align: center; /* Center text horizontally */
+}
+
+.person-card:hover .person-name.visible {
+  transform: translateY(-50%) translateX(0);
+  opacity: 1; /* Show the name on hover */
+}
+
+/* Add a container to hold the cards and set a padding for the container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribute cards with space between them */
+  padding: 10px; /* Add padding to the container to create a gap from the edge of the page */
+}
