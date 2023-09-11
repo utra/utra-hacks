@@ -1,8 +1,11 @@
 .bg {
   height: 100vh;
   /*background-image: linear-gradient(to right, rgba(102, 126, 234, 0.5), rgba(118, 75, 162, 0.5)); 
-  background-image: linear-gradient( to right,  rgb(13, 13, 14) 0.2%, rgb(52, 50, 50) 100.2% ); */
-  background-image: linear-gradient( to left,  rgb(14, 21, 31) 0%, #575757 90% );
+  background-image: linear-gradient( to right,  rgb(13, 13, 14) 0.2%, rgb(52, 50, 50) 100.2% ); 
+  background-image: linear-gradient( to left,  rgb(2, 4, 7) 30%, #4e4d4d 90%);
+  background-image: linear-gradient(to right, #090b0f, #14161a, #1c1f23, #25282e, #2d3138, #2d3138, #2d3138, #2d3138, #25282e, #1c1f23, #14161a, #090b0f);*/
+  /*background-image: linear-gradient(to right, #010813, #0e141b, #161c23, #1e242b, #262c34, #262c34, #262c34, #262c34, #1e242b, #161c23, #0e141b, #010813);*/
+  background-image: linear-gradient(to right, #01060f, #12151a, #1c1f24, #27292e, #323439, #323439, #323439, #323439, #27292e, #1c1f24, #12151a, #01060f);
 }
 
 .text {
