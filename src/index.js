@@ -5,6 +5,7 @@ import './index.css';
 import Home from './Home';
 import NavBar from './Navbar';
 import AboutUs from './AboutUs';
+import MeetTeam from './MeetTeam';
 import PhotoGallery from './PhotoGallery';
 import ContactUs from './ContactUs';
 
@@ -18,7 +19,7 @@ root.render(
     <NavBar/>
     <Routes>
       <Route exact path = "/" element = {<Home/>}/>
-      <Route path = "/AboutUs" element = {<AboutUs/>}/>
+      <Route path = "/MeetTheTeam" element = {<MeetTeam/>}/>
       <Route path = "/PhotoGallery" element = {<PhotoGallery/>}/>
       <Route path = "/ContactUs" element = {<ContactUs/>}/>
     </Routes>

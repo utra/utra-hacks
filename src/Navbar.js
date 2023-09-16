@@ -18,8 +18,8 @@ function NavBar() {
                         <LinkContainer to = "/">
                             <Nav.Link>Home</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to = "/AboutUs">
-                            <Nav.Link>About Us</Nav.Link>  
+                        <LinkContainer to = "/MeetTheTeam">
+                            <Nav.Link>Meet The Team</Nav.Link>  
                         </LinkContainer>
                         <LinkContainer to = "/PhotoGallery">
                             <Nav.Link>Photo Gallery</Nav.Link>
