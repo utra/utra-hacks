@@ -25,7 +25,7 @@ function Home() {
         </div>
       </section>
 
-      <section className='about text text-center pt-5'>
+      <section className='alternate_bg text text-center pt-5'>
         <h1 className='pt-5'>UTRA's mission</h1>
 
         <Row className='pt-5 mt-5'>

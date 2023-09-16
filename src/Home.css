@@ -13,7 +13,7 @@
   font-family: "Copperplate", "Fantasy";
 }
 
-.about {
+.alternate_bg {
   min-height: 100vh;
   background-image: linear-gradient(to right, #56565e, #56565e, #56565e, #56565e, #56565e);
 }
