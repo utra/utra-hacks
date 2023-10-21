@@ -11,44 +11,45 @@ import './Home.css';
 
 function Home() {
   return (
-    <div>
-      <section className = "bg text text-center pt-5">   
-        <h1 className="pb-4">Welcome to UTRA Hacks!</h1>
-        <img className = "pt-3 pb-5" src= {toronto_skyline} alt = "Toronto Syline"/>
-        <h2 className="pt-3">UTRAHacks 2023</h2>
-        <h5>November 4-5, 2023</h5>
-        <h5 className="pt-3">For sponsorship information, contact <a href="mailto:sponsorhacks@utra.ca" className='text'>sponsorhacks@utra.ca</a></h5>
-        <h5>Presented By:</h5>
-        <div>
-          <img style={{width: "5%"}} src= {utra_logo} alt = "UTRA"/>
-          <img style={{width: "25%"}} src= {RI_logo} alt = "University of Toronto & Robotics Institute"/>
-        </div>
-      </section>
+    <div id = "home" className='section main-title'>
+        <div
+          className="container"
+          style={{
+            backgroundImage: `url(${toronto_skyline})`,
+            backgroundSize: "40%",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundOrigin: "border-box",
+            padding: "10%",
+            backfaceVisibility: "visible"
+          }}
+        />
 
-      <section className='alternate_bg text text-center pt-5'>
-        <h1 className='pt-5'>UTRA's mission</h1>
+        <div className="glowing-text">
+              <span className="letter letter-u">U</span>
+              <span className="letter letter-t">T</span>
+              <span className="letter letter-r">R</span>
+              <span className="letter letter-a">A</span>
+            </div>
+            <div
+              className="subtitle"
+              style={{ fontSize: "22px", color: "white" }}
+            >
+              University of Toronto Robotics Association
+            </div>
+            <div className="glowing-text">
+              <span className="letter letter-h">H</span>
+              <span className="letter letter-a1">A</span>
+              <span className="letter letter-c">C</span>
+              <span className="letter letter-k">K</span>
+              <span className="letter letter-k">S</span>
+            </div>
 
-        <Row className='pt-5 mt-5'>
-          <Col>
-            <img style={{width: "30%"}} src = {design} alt="design"/>
-            <h2 className='pt-4'>Design</h2>
-          </Col>
-
-          <Col>
-            <img style={{width: "30%"}} src = {build} alt="build"/>
-            <h2 className='pt-4'>Build</h2>
-          </Col>
-
-          <Col>
-            <img style={{width: "30%"}} src = {inspire} alt="inspire"/>
-            <h2 className='pt-4'>Inspire</h2>
-          </Col>
-        </Row>
-
-        <Row>
-          <h5 className='pt-5 mt-5 px-5'>Following UTRA’s mission - to foster creativity and innovation, and cultivate science and technology leaders of the future by providing students with the opportunities to design and build advanced robotic technologies. The team started planning for this event with a mindset of “Design, Build, Inspire”. Without limitation on the design scope, we believe this event could bring a variety of brilliant ideas and creative minds together.</h5>
-        </Row>
-      </section>
+            <div className="section" style={{ paddingBottom: "100px" }}>
+              <main-event className="text-center">
+                January 20-21, 2024
+              </main-event>
+            </div>
     </div> 
   );
 }

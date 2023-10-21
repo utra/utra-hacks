@@ -5,7 +5,10 @@
   background-image: linear-gradient( to left,  rgb(2, 4, 7) 30%, #4e4d4d 90%);
   background-image: linear-gradient(to right, #090b0f, #14161a, #1c1f23, #25282e, #2d3138, #2d3138, #2d3138, #2d3138, #25282e, #1c1f23, #14161a, #090b0f);*/
   /*background-image: linear-gradient(to right, #010813, #0e141b, #161c23, #1e242b, #262c34, #262c34, #262c34, #262c34, #1e242b, #161c23, #0e141b, #010813);*/
-  background-image: linear-gradient(to right, #01060f, #12151a, #1c1f24, #27292e, #323439, #323439, #323439, #323439, #27292e, #1c1f24, #12151a, #01060f);
+  /*background-image: linear-gradient(to right, #01060f, #12151a, #1c1f24, #27292e, #323439, #323439, #323439, #323439, #27292e, #1c1f24, #12151a, #01060f);*/
+  /*background-image: linear-gradient(to right, #000000, #3533CD, #2EDDD3, #AE71B1, #BFBFE2);*/
+  background-color: black;
+
 }
 
 .text {
@@ -18,18 +21,175 @@
   background-image: linear-gradient(to right, #56565e, #56565e, #56565e, #56565e, #56565e);
 }
 
-/*
-.iconContainer{
-  margin-left: 10px;
-  margin-right: 10px;
-  justify-content: space-around;
+.skyline {
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  padding: 10%;
+  backface-visibility: visible;
 }
 
-.aboutIcon__img{
-  height: 130px;
+.header {
+  text-align: center;
 }
 
-.aboutIcon__text{
-  font-size: 1.5em;
+/* Center-align subheadings in sections */
+.section {
+  text-align: center;
+  padding: 50px;
+  color: white;
 }
-*/
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.section h4 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+/* App Container */
+.app-container {
+  background: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+/* Main Title */
+.main-title {
+  text-align: center;
+}
+
+/* Event time */
+.section main-event {
+  font-size: 50px;
+  text-align: top;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: #3533cd 1px 0 20px, #3533cd 1px 0 20px;
+  background-clip: text;
+}
+
+/* Glowing Text*/
+.glowing-text {
+  font-size: 115px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: top;
+  color: white;
+  letter-spacing: 0px;
+  position: relative;
+  text-shadow: #3533cd 1px 0 20px;
+}
+
+/* Gradient Background for "U" in "UTRA" */
+.letter-u {
+  text-shadow: #3533cd 1px 0 20px, #3533cd 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "T" in "UTRA" */
+.letter-t {
+  text-shadow: rgb(79, 6, 215) 1px 0 20px, rgb(79, 6, 215) 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "R" in "UTRA" */
+.letter-r {
+  /*text-shadow: rgb(53, 250, 240) 1px 0 20px, rgb(46, 221, 212) 1px 0 20px;*/
+  text-shadow: #ae71b1 1px 0 20px, #ae71b1 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "A" in "UTRA" */
+.letter-a {
+  text-shadow: #ae71b1 1px 0 20px, #ae71b1 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "H" in "HACKATHON" */
+.letter-h {
+  /*text-shadow: #3533cd 1px 0 20px, #3533cd 1px 0 20px;*/
+  text-shadow: #2eddd3 1px 0 20px, #2eddd3 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "A" in "HACKATHON" */
+.letter-a1 {
+  text-shadow: #2eddd3 1px 0 20px, #2eddd3 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "C" in "HACKATHON" */
+.letter-c {
+  /*text-shadow: #ae71b1 1px 0 20px, #ae71b1 1px 0 20px;*/
+  text-shadow:#5bb9f8 1px 0 20px, #5bb9f8 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "K" in "HACKATHON" */
+.letter-k {
+  text-shadow: #bfbfe2 1px 0 20px, #bfbfe2 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "S" in "HACKS" */
+.letter-S {
+  text-shadow: #e7d9d9 1px 0 20px, #ffffff 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "A" in "HACKATHON" */
+.letter-a2 {
+  text-shadow: #3533cd 1px 0 20px, #3533cd 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "T" in "HACKATHON" */
+.letter-t1 {
+  text-shadow: #2eddd3 1px 0 20px, #2eddd3 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "H" in "HACKATHON" */
+.letter-h1 {
+  text-shadow: #ae71b1 1px 0 20px, #ae71b1 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "O" in "HACKATHON" */
+.letter-o {
+  text-shadow: #bfbfe2 1px 0 20px, #bfbfe2 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+/* Gradient Background for "N" in "HACKATHON" */
+.letter-n {
+  text-shadow: #3533cd 1px 0 20px, #3533cd 1px 0 20px;
+  color: white;
+  background-clip: text;
+}
+
+.about {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}

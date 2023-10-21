@@ -14,17 +14,11 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <NavBar/>
-    <Routes>
-      <Route exact path = "/" element = {<Home/>}/>
-      <Route path = "/MeetTheTeam" element = {<MeetTeam/>}/>
-      <Route path = "/PhotoGallery" element = {<PhotoGallery/>}/>
-      <Route path = "/ContactUs" element = {<ContactUs/>}/>
-    </Routes>
-  </Router>
-
+    <div className='bg'>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <NavBar/>
+      <Home/>
+    </div>
   </React.StrictMode> 
 );
 
