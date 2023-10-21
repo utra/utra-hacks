@@ -5,6 +5,8 @@ import './index.css';
 import Home from './Home';
 import NavBar from './Navbar';
 import AboutUs from './AboutUs';
+import Apply from './Apply';
+import FAQ from './FAQ';
 import MeetTeam from './MeetTeam';
 import PhotoGallery from './PhotoGallery';
 import ContactUs from './ContactUs';
@@ -20,6 +22,8 @@ root.render(
       <NavBar/>
       <Home/>
       <AboutUs/>
+      <Apply/>
+      <FAQ/>
     </div>
   </React.StrictMode> 
 );
