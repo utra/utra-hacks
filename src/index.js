@@ -8,6 +8,7 @@ import AboutUs from './AboutUs';
 import MeetTeam from './MeetTeam';
 import PhotoGallery from './PhotoGallery';
 import ContactUs from './ContactUs';
+import './Home.css';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -18,6 +19,7 @@ root.render(
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <NavBar/>
       <Home/>
+      <AboutUs/>
     </div>
   </React.StrictMode> 
 );
