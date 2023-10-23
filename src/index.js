@@ -10,6 +10,7 @@ import FAQ from './FAQ';
 import Sponsors from './Sponsors';
 import MeetTeam from './MeetTeam';
 import PhotoGallery from './PhotoGallery';
+import Resources from './Resources';
 import ContactUs from './ContactUs';
 import './Home.css';
 
@@ -27,6 +28,7 @@ root.render(
       <FAQ/>
       <Sponsors/>
       <PhotoGallery/>
+      <Resources/>
     </div>
   </React.StrictMode> 
 );

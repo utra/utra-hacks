@@ -20,8 +20,8 @@ function NavBar() {
                     <Nav.Link href="#faq">FAQs</Nav.Link>
                     <Nav.Link href="#sponsors">Sponsors</Nav.Link>
                     <Nav.Link href="#gallery">Gallery</Nav.Link>
-                    <Nav.Link href="#contact">Contact Us</Nav.Link>
                     <Nav.Link href="#resources">Resources</Nav.Link>
+                    <Nav.Link href="#contact">Contact Us</Nav.Link>
             </Nav>
         </Navbar>    
     );
