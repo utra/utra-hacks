@@ -1,7 +1,13 @@
+//import Gallery from "./Gallery";
+
 function PhotoGallery () {
     return (
-        <div className="bg text text-center pt-5">
-            <h1>Photo Gallery Coming Soon!</h1>
+        <div id="gallery" className="section">
+            <div className="container">
+            <h2 className="text-center">Gallery</h2>
+            <p>View our event photo gallery.</p>
+            {/*<Gallery />*/}
+            </div>
         </div>
     );
 }

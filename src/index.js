@@ -7,6 +7,7 @@ import NavBar from './Navbar';
 import AboutUs from './AboutUs';
 import Apply from './Apply';
 import FAQ from './FAQ';
+import Sponsors from './Sponsors';
 import MeetTeam from './MeetTeam';
 import PhotoGallery from './PhotoGallery';
 import ContactUs from './ContactUs';
@@ -24,6 +25,8 @@ root.render(
       <AboutUs/>
       <Apply/>
       <FAQ/>
+      <Sponsors/>
+      <PhotoGallery/>
     </div>
   </React.StrictMode> 
 );
