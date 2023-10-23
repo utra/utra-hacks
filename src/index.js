@@ -8,7 +8,6 @@ import AboutUs from './AboutUs';
 import Apply from './Apply';
 import FAQ from './FAQ';
 import Sponsors from './Sponsors';
-import MeetTeam from './MeetTeam';
 import PhotoGallery from './PhotoGallery';
 import Resources from './Resources';
 import ContactUs from './ContactUs';
@@ -29,6 +28,7 @@ root.render(
       <Sponsors/>
       <PhotoGallery/>
       <Resources/>
+      <ContactUs/>
     </div>
   </React.StrictMode> 
 );
