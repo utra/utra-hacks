@@ -3,7 +3,7 @@ import './FAQ.css';
 
 export default function FAQ() {
   return (
-    <Container>
+    <Container id = "faq" className="section">
       <h2 className="text-center faq-title">FAQs</h2>
       <Accordion>
         <Accordion.Item eventKey="0">
