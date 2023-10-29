@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Home from './Home';
 import NavBar from './Navbar';
@@ -14,6 +13,7 @@ import ContactUs from './ContactUs';
 import './Home.css';
 import "./Home Page Photos/stars.png"
 import reportWebVitals from './reportWebVitals';
+import Schedule from './Schedule';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +23,7 @@ root.render(
       <NavBar/>
       <Home/>
       <AboutUs/>
+      <Schedule/>
       <Apply/>
       <FAQ/>
       <Sponsors/>
