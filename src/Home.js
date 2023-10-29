@@ -12,6 +12,11 @@ import './Home.css';
 function Home() {
   return (
     <div id="home" className="section">
+      <div class = "sparkles">
+      {[11, 15, 23, 15, 19, 21, 11, 17, 14, 21, 26, 22, 12, 15, 26, 12, 28, 18, 13, 27, 24, 20, 29, 10, 30, 16, 25, 29, 12, 11, 20, 18, 23, 29, 15, 16, 22, 24, 12, 25, 30, 19, 27, 13, 17, 14, 28, 10, 21, 26, 19, 30, 22, 11, 15, 24, 18, 23, 27, 14, 13, 25, 20, 16, 21, 29, 17, 12, 28, 10] .map((value, index) => (
+        <span key={index} style={{'--i': value}}></span>
+      ))}
+      </div>
       <div className="main-title">
         <div className="container">
           <div

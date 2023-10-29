@@ -12,7 +12,7 @@ import PhotoGallery from './PhotoGallery';
 import Resources from './Resources';
 import ContactUs from './ContactUs';
 import './Home.css';
-
+import "./Home Page Photos/stars.png"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
