@@ -36,13 +36,13 @@
   0 0 50px #4fc3dc,
   0 0 100px #4fc3dc;
   animation: animate 15s linear infinite;
-  animation-duration: calc(125s / var(--i));
+  animation-duration: calc(125s / var(--i));  
 }
 
 .sparkles span:nth-child(even)
 {
-  background: #ff2d75;
-  box-shadow: 0 0 0 10px #ff2d7544,
+  background: #f4f3f2;
+  box-shadow: 0 0 0 10px #cd739244,
   0 0 50px #ff2d75,
   0 0 100px #ff2d75;
 }
