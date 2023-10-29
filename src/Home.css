@@ -15,7 +15,7 @@
 */
 .bg {
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, #000000, #00008B 30%, #000000);
+  background-image: linear-gradient(to right, #000000, #02023f , #000000);
   background-size: cover;
   background-color: black;
 }
