@@ -1,5 +1,31 @@
 .faq-title {
     color: #fff;
-    font-size: 24px;
-    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    scroll-padding-block: 50px;
+}
+
+/* Make the Accordion transparent */
+.accordion {
+    background: transparent;
+    border: none;
+}
+
+/* Make the Accordion items transparent */
+.accordion-item {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.accordion-button {
+    background-color: rgba(32, 32, 32, 0.409);
+}
+  
+.accordion-button:focus {
+    box-shadow: none;
+}
+  
+.accordion-button{
+    color: white;
 }

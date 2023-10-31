@@ -1,5 +1,4 @@
 import React from 'react';
-import package_pic from "./Home Page Photos/sponsorship_package.png";
 import code_of_conduct_pic from "./Home Page Photos/code_of_conduct.png"
 import './Resources.css'; // Import your custom CSS for the hover effect
 
@@ -30,11 +29,6 @@ function Resources() {
                         resourceName="Hackathon Code Of Conduct"
                         resourceURL="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
                         imageUrl= {code_of_conduct_pic}
-                    />
-                    <ResourceCard
-                        resourceName="UTRA Sponsorship Package 23-24"
-                        resourceURL="https://drive.google.com/file/d/1yhuxijjjOdvd7furPhY_yatJd0xVVd7Q/view?usp=share_link"
-                        imageUrl={package_pic}
                     />
                 </div>
             </div>

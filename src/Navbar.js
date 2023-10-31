@@ -8,7 +8,7 @@ function NavBar() {
 
     // Scrolling effect: When scrolled down the Nav. bar will show;
     // if scrolled up the Nav. bar disappears
-    const [scrolling, setScrolling] = useState(false);
+    const [scrolling, setScrolling] = useState(true);
 
     useEffect(() => {
         let prevScrollY = window.scrollY;
@@ -29,7 +29,7 @@ function NavBar() {
     return (
         <Navbar
             style={{
-                backgroundColor: "black",
+                backgroundColor: "transparent",
                 transform: scrolling ? 'translateY(0)' : 'translateY(-100%)', // Change the transformation to hide navbar when scrolling up
                 transition: 'transform 0.3s ease-in-out',
             }}
