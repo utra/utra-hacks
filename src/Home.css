@@ -124,26 +124,26 @@
 
 /* Glowing Text*/
 .glowing-text {
-  font-size: 115px;
+  font-size: 150px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: top;
   color: white;
   letter-spacing: 0px;
   position: relative;
-  text-shadow: #3533cd 1px 0 20px;
+  /*text-shadow: #3533cd 1px 0 20px;*/
 }
 
 /* Gradient Background for "U" in "UTRA" */
 .letter-u {
-  text-shadow: #3533cd 1px 0 20px, #3533cd 1px 0 20px;
+  text-shadow: #5E17EB 1px 0 20px, #5E17EB 1px 0 20px;
   color: white;
   background-clip: text;
 }
 
 /* Gradient Background for "T" in "UTRA" */
 .letter-t {
-  text-shadow: rgb(79, 6, 215) 1px 0 20px, rgb(79, 6, 215) 1px 0 20px;
+  text-shadow:#8C52FF 1px 0 20px, #8C52FF 1px 0 20px;
   color: white;
   background-clip: text;
 }
@@ -151,14 +151,14 @@
 /* Gradient Background for "R" in "UTRA" */
 .letter-r {
   /*text-shadow: rgb(53, 250, 240) 1px 0 20px, rgb(46, 221, 212) 1px 0 20px;*/
-  text-shadow: #ae71b1 1px 0 20px, #ae71b1 1px 0 20px;
+  text-shadow: #CB6CE6 1px 0 20px, #CB6CE6 1px 0 20px;
   color: white;
   background-clip: text;
 }
 
 /* Gradient Background for "A" in "UTRA" */
 .letter-a {
-  text-shadow: #ae71b1 1px 0 20px, #ae71b1 1px 0 20px;
+  text-shadow: #FF66C4 1px 0 20px, #FF66C4 1px 0 20px;
   color: white;
   background-clip: text;
 }
@@ -166,14 +166,14 @@
 /* Gradient Background for "H" in "HACKATHON" */
 .letter-h {
   /*text-shadow: #3533cd 1px 0 20px, #3533cd 1px 0 20px;*/
-  text-shadow: #2eddd3 1px 0 20px, #2eddd3 1px 0 20px;
+  text-shadow: #227070 1px 0 20px, #227070 1px 0 20px;
   color: white;
   background-clip: text;
 }
 
 /* Gradient Background for "A" in "HACKATHON" */
 .letter-a1 {
-  text-shadow: #2eddd3 1px 0 20px, #2eddd3 1px 0 20px;
+  text-shadow: #5CE1E6 1px 0 20px, #5CE1E6 1px 0 20px;
   color: white;
   background-clip: text;
 }
@@ -181,21 +181,21 @@
 /* Gradient Background for "C" in "HACKATHON" */
 .letter-c {
   /*text-shadow: #ae71b1 1px 0 20px, #ae71b1 1px 0 20px;*/
-  text-shadow:#5bb9f8 1px 0 20px, #5bb9f8 1px 0 20px;
+  text-shadow:#38B6FF 1px 0 20px, #38B6FF 1px 0 20px;
   color: white;
   background-clip: text;
 }
 
 /* Gradient Background for "K" in "HACKATHON" */
 .letter-k {
-  text-shadow: #bfbfe2 1px 0 20px, #bfbfe2 1px 0 20px;
+  text-shadow: #5271FF 1px 0 20px, #5271FF 1px 0 20px;
   color: white;
   background-clip: text;
 }
 
 /* Gradient Background for "S" in "HACKS" */
 .letter-S {
-  text-shadow: #e7d9d9 1px 0 20px, #ffffff 1px 0 20px;
+  text-shadow: #004AAD 1px 0 20px, #004AAD 1px 0 20px;
   color: white;
   background-clip: text;
 }
