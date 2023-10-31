@@ -47,6 +47,7 @@ function NavBar() {
                 <Nav.Link href="#gallery">Gallery</Nav.Link>
                 <Nav.Link href="#resources">Resources</Nav.Link>
                 <Nav.Link href="#contact">Contact Us</Nav.Link>
+                <Nav.Link href="https://forms.gle/2DvSRNtm4UhURNWeA">APPLY TO BE A HACKER</Nav.Link>
             </Nav>
         </Navbar>
     );

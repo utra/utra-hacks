@@ -37,7 +37,7 @@ const ContactUs = () => {
 
     if (!submitted) {
         return (
-            <div className="bg text text-center pt-5 mb-3">
+            <div id = "contact" className="bg text-center pt-5 mb-3 section">
                 <h1>Contact Us</h1>
                 <Form onSubmit={handleSubmit} className='w-50 m-auto align-text-center'>
                     <Row className="pt-5 mb-3">
