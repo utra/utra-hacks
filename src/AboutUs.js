@@ -4,7 +4,7 @@ function AboutUs() {
   return (
     <div id="about" className="section">
       <div className="container">
-        <h2 className="text-center">About Us</h2>
+        <h1 className="text-center">About Us</h1>
         <p className="section about">
           At UTRA, we aim to inspire creativity, enable collaboration and
           foster skill development. Participants can connect face-to-face,

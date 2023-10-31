@@ -24,7 +24,7 @@ function Resources() {
     return (
         <div id="resources" className="section">
             <div className="container">
-                <h2 className="text-center">Resources</h2>
+                <h1 className="text-center">Resources</h1>
                 <div className="row justify-content-center"> {/* Center the row content */}
                     <ResourceCard
                         resourceName="Hackathon Code Of Conduct"

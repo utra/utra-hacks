@@ -4,9 +4,9 @@ import "./Schedule.css";
 function Schedule() {
     return (
         <div id="schedule" class="container py-7">
-            <h2 class="text-letter-spacing-xs my-0 text-light font-weight-bold text-center mb-5">
+            <h1 class="text-letter-spacing-xs my-0 text-light font-weight-bold text-center mb-5">
                 Schedule
-            </h2>
+            </h1>
 
             <div class="row">
                 <div class="col-lg-4 mb-3">
