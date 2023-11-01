@@ -15,6 +15,28 @@ import "./Home Page Photos/stars.png"
 import reportWebVitals from './reportWebVitals';
 import Schedule from './Schedule';
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD_D3KaB81UWmVMApo6BZ4cpwbRA7bmQig",
+  authDomain: "hackathon-54b2d.firebaseapp.com",
+  projectId: "hackathon-54b2d",
+  storageBucket: "hackathon-54b2d.appspot.com",
+  messagingSenderId: "517309214531",
+  appId: "1:517309214531:web:40cbfbc69c522e2c6909f6",
+  measurementId: "G-7X4NKDMPRD"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
