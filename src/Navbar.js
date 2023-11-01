@@ -38,16 +38,16 @@ function NavBar() {
         >
             <Navbar.Brand href="#home"><img src={utra_logo} width="160" alt="UTRA Logo" /></Navbar.Brand>
             <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#about">About</Nav.Link>
-                <Nav.Link href="#schedule">Schedule</Nav.Link>
-                <Nav.Link href="#apply">Apply</Nav.Link>
-                <Nav.Link href="#faq">FAQs</Nav.Link>
-                <Nav.Link href="#sponsors">Sponsors</Nav.Link>
-                <Nav.Link href="#gallery">Gallery</Nav.Link>
-                <Nav.Link href="#resources">Resources</Nav.Link>
-                <Nav.Link href="#contact">Contact Us</Nav.Link>
-                <Nav.Link href="https://forms.gle/2DvSRNtm4UhURNWeA">APPLY TO BE A HACKER</Nav.Link>
+                <Nav.Link href="#home"> Home</Nav.Link>
+                <Nav.Link href="#about"> About</Nav.Link>
+                <Nav.Link href="#schedule"> Schedule</Nav.Link>
+                <Nav.Link href="#apply"> Apply</Nav.Link>
+                <Nav.Link href="#faq"> FAQs</Nav.Link>
+                <Nav.Link href="#sponsors"> Sponsors</Nav.Link>
+                <Nav.Link href="#gallery"> Gallery</Nav.Link>
+                <Nav.Link href="#resources"> Resources</Nav.Link>
+                <Nav.Link href="#contact"> Contact Us</Nav.Link>
+                <Nav.Link href="https://forms.gle/2DvSRNtm4UhURNWeA"> APPLY TO BE A HACKER</Nav.Link>
             </Nav>
         </Navbar>
     );

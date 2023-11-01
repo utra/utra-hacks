@@ -16,6 +16,7 @@
     background-color: transparent;
     border: none;
     color: #fff;
+    
 }
 
 .accordion-button {
@@ -28,4 +29,5 @@
   
 .accordion-button{
     color: white;
+    text-align: center;
 }

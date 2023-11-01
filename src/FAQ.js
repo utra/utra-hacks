@@ -7,34 +7,25 @@ export default function FAQ() {
     
     <Container id = "faq" className="section">
       <h1 className="text-center faq-title">Frequently Asked Questions</h1>
-      <Accordion className="accordion-container"  sx={{ backgroundColor: "rgb(3, 2, 0.6)" }}>
+      <Accordion className="accordion-container">
           <Accordion.Item eventKey="0" className="accordion-item">
-            <Accordion.Header className="accordion-header">Who is UTRA?</Accordion.Header>
+            <Accordion.Header className="accordion-header">What is UTRA Hacks?</Accordion.Header>
             <Accordion.Body>
-                      UTRA stands for the University of Toronto Robotics
-                      Association. We are the largest active robotics group on
-                      campus. Our mission is to foster interests in robotics, and
-                      teach anybody who is interested all that they need to know to
-                      be able to contribute. We are currently running 5 sub-teams at
-                      varying technical skill levels, making it easy for both
-                      beginners and veterans to embrace their passion in robotics.
-                      Our 5 sub-teams include SUMO, RoboSoccer, Combat, Autonomous
-                      Rover Team (ART), and Robonars. Visit our website, www.utra.ca
-                      for more information!
+                UTRA Hacks is Canada's emerging 2-day robotics hackathon hosted by the University of Toronto Robotics Association (UTRA) and the Robotics Institute. We aim to inspire creativity, enable collaboration and foster skill development. Participants connect face-to-face, collaborate with global students, and engage with industry leaders and mentors. The event sparks inspiration and opens minds to endless possibilities. Hackers of all experience levels can join workshops, tech talks, and career sessions to learn something new. UTRA Hacks supports participants by providing necessary equipment, so that the sky's the limit!
             </Accordion.Body>
           </Accordion.Item>
 
           <Accordion.Item eventKey="1" className="accordion-item">
-            <Accordion.Header>How do hackathons work?</Accordion.Header>
+            <Accordion.Header>Who is UTRA?</Accordion.Header>
             <Accordion.Body>
-                      Hackathons are awesome events where you can dedicate some hours of your time to come up with a creative solution to a problem. We will provide you with food, drinks, workshops, entertainment, and all the caffeine required for you to bring your idea to life.
+                UTRA (University of Toronto Robotics Association) is the largest robotics group on campus. Our mission is to foster interests in robotics, and teach anybody who is interested all that they need to know to be able to contribute. We are currently running 5 sub-teams at varying technical skill levels, making it easy for both beginners and veterans to embrace their passion in robotics. Our 5 sub-teams include SUMO, RoboSoccer, Combat, Autonomous Rover Team (ART), and Robonars. Visit www.utra.ca for more information!
             </Accordion.Body>
           </Accordion.Item>
 
           <Accordion.Item eventKey="2" className="accordion-item">
-            <Accordion.Header>Do I need to bring anything to the hackathon?</Accordion.Header>
+            <Accordion.Header>How is UTRA Hacks challenging hackathon culture?</Accordion.Header>
             <Accordion.Body>
-                      Please bring a computer with a USB-A port (or converter), your signed waiver, and a great attitude!
+            UTRA Hacks believes in enabling anyone from any background with any interest to come together and build impactful tech while having fun and meeting new people. UTRA Hacks is unique. We strive to: 1) facilitate hackers resting during the hackathon, 2) allow teams to gain meaningful feedback from industry professionals on their projects which they can use in future design projects, 3) get serious about robotics education by having teams mentored by passionate graduate students, 4) encourage collaboration between technical and non-technical backgrounds, and 5) develop and implement recommendations from consultations with EDIA and mental health community stakeholders and subject matter experts. Whether you're here to hone your robotics skillset, explore a new field, or meet new people, UTRA Hacks is here for you.
             </Accordion.Body>
           </Accordion.Item>
 
@@ -57,35 +48,64 @@ export default function FAQ() {
           </Accordion.Item>
 
           <Accordion.Item eventKey="4" className="accordion-item">
-            <Accordion.Header>When/Where is UTRA Hacks?</Accordion.Header>
+            <Accordion.Header>How much does it cost to attend UTRA Hacks?</Accordion.Header>
             <Accordion.Body>
-                      UTRA Hacks will be hosted at the Myhal centre for Engineering
-                      Innovation and Entrepreneurship at the University of Toronto,
-                      on January 20-21, 2024.
+                Admission to UTRA Hacks is completely free! We will also provide food and accommodation for the entire event, as well as all the resources and mentorship our hackers need to build something incredible.
             </Accordion.Body>
           </Accordion.Item>
 
           <Accordion.Item eventKey="5" className="accordion-item">
-            <Accordion.Header> Can I bring my own hardware?</Accordion.Header>
+            <Accordion.Header> What if I've never been to a hackathon before?</Accordion.Header>
             <Accordion.Body>
-                      Yes! Feel free to bring your own hardware. We will be lending
-                      Arduino kits.
+                UTRA Hacks welcomes students of all skill levels. Many students attend Hack the North as their first hackathon, and they always have a blast! We’ll provide tech resources (including hardware), mentors, and workshops to help you with your project. Hackathons can be a great place to learn new skills in a short amount of time. Just be eager to learn, and excited to meet lots of awesome people.
             </Accordion.Body>
           </Accordion.Item>
 
           <Accordion.Item eventKey="6"className="accordion-item" >
-            <Accordion.Header>Do I need a team to join?</Accordion.Header>
+            <Accordion.Header>What kind of workshops, talks, and activities will there be?</Accordion.Header>
             <Accordion.Body>
-                      No! You can sign up as an individual.
+                Previously, we've held workshops and talks for a range of skill levels from beginner to advanced like intro to ROS, computer vision, hardware security and autonomous vehicles. Other workshops also explore building a career in tech and various programming tools. Activities like demos, networking & meetups, and even karaoke happen throughout the weekend. Whether it’s for relaxation or health, novelty or competition, our team has something exciting prepared for you to enjoy!
             </Accordion.Body>
           </Accordion.Item>
 
           <Accordion.Item eventKey="7" className="accordion-item">
-            <Accordion.Header>I'm a beginner. Can I still apply?</Accordion.Header>
+            <Accordion.Header>When do hacker applications open?</Accordion.Header>
             <Accordion.Body>
-                      Of course! Hackathons are a great opportunity to learn and
-                      grow, especially for beginners. We will also have tons of
-                      mentors and resources to help your throughout the event.
+                Hacker applications are open and will close on Friday, December 1st at 11:59 pm ET. Apply now!
+            </Accordion.Body>
+          </Accordion.Item>
+
+          <Accordion.Item eventKey="8" className="accordion-item">
+            <Accordion.Header>I'm not currently enrolled as a student, can I still attend UTRA Hacks?</Accordion.Header>
+            <Accordion.Body>
+                UTRA Hacks is geared towards students who are interested in tech, but we also want to open the doors for anyone who wants to learn. If your situation falls within this category, please reach out to us at hackathon@utra.ca and we can chat more regarding certain exemptions!
+            </Accordion.Body>
+          </Accordion.Item>
+
+          <Accordion.Item eventKey="9" className="accordion-item">
+            <Accordion.Header>Will UTRA Hacks 2024 happen in person or virtually?</Accordion.Header>
+            <Accordion.Body>
+                UTRA Hacks aims to provide participants with the best experience possible, and we strongly feel that an in-person event is the best way to empower our hackers to dream big and build. We will not be offering a virtual attendance option this year.            </Accordion.Body>
+          </Accordion.Item>
+
+          <Accordion.Item eventKey="10" className="accordion-item">
+            <Accordion.Header>Who can participate?</Accordion.Header>
+            <Accordion.Body>
+               Students of any education level from anywhere in the world are eligible to apply for UTRA Hacks! All attendees must be 17 years or older to participate.
+            </Accordion.Body>
+          </Accordion.Item>
+
+          <Accordion.Item eventKey="11" className="accordion-item">
+            <Accordion.Header>How many people can be on a team? Do I need to have a team to apply?</Accordion.Header>
+            <Accordion.Body>
+                Hackers may form teams of up to 4 people. There are no restrictions for who they can be, so you can team up with hackers from any school, country, or experience level. Teams can be formed before or during the event at hackers' own discretion.
+            </Accordion.Body>
+          </Accordion.Item>
+
+          <Accordion.Item eventKey="12" className="accordion-item">
+            <Accordion.Header>What if I need to travel internationally to attend UTRA Hacks?</Accordion.Header>
+            <Accordion.Body>
+                Please note that visitor visa wait times may be as long as several months, depending on the country of departure. We recommend you apply for your visa, if required, immediately after receiving your acceptance to UTRA Hacks. For all international hackers with the exception of U.S. citizens, <b><i>begin your visa application immediately after receiving your offer</i></b>. Unfortunately, we will not be reimbursing travel expenditures.
             </Accordion.Body>
           </Accordion.Item>
 

@@ -33,7 +33,7 @@ function Home() {
           </div>
           <div
             className="subtitle"
-            style={{ fontSize: "22px", color: "white"}}
+            style={{ fontSize: "20px", color: "white"}}
           >
             University of Toronto Robotics Association
           </div>
