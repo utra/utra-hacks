@@ -9,9 +9,9 @@ function Schedule() {
                 Schedule
             </h1>
 
-            <Container style= {{paddingLeft: "28%"}}>
+            <Container style= {{paddingLeft: "20%"}}>
                 <div class="row">
-                    <div class="col-lg-4 mb-3">
+                    <div class="col-lg-4 mb-1">
                         <h4 class="mt-0 mb-3 text-light op-8 font-weight-bold">
                             Saturday, January 20th
                         </h4>
@@ -24,8 +24,7 @@ function Schedule() {
                             <ScheduleItem event={"Dinner"} time={"6:00 PM"}/>
                         </ul>
                     </div>
-
-                    <div class="col-lg-4 mb-3" >
+                    <div class="col-lg-6 mb-1" style={{paddingLeft: "10%"}}>
 
                         <h4 class="mt-0 mb-3 text-light op-8 font-weight-bold">Sunday, January 21st</h4>
     
