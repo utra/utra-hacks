@@ -59,7 +59,7 @@ const ContactUs = () => {
                     </Row>
 
                     <Row className="pt-5 mb-3 w-25 m-auto">
-                        <Button variant="secondary" type="submit">Submit</Button>
+                        <Button variant="light" type="submit">Submit</Button>
                     </Row>
                 </Form>
 
