@@ -3,6 +3,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import utra_logo from './logos/utraLogoWhite.png';
+import mlh_logo from './logos/mlh_logo.svg';
+import { NavbarCollapse } from 'react-bootstrap';
 
 function NavBar() {
 
@@ -48,6 +50,11 @@ function NavBar() {
                 <Nav.Link href="#resources"> Resources</Nav.Link>
                 <Nav.Link href="#contact"> Contact Us</Nav.Link>
                 <Nav.Link href="https://forms.gle/2DvSRNtm4UhURNWeA" style={{color:"white"}}><b>Apply to be a Hacker</b></Nav.Link>
+
+                {/*Right side of Navbar*/}
+                <Nav className="d-flex justify-content-end">
+                    <Navbar.Brand href="#home"><img src={mlh_logo} height = "90" width="80" alt="MLH Logo"/></Navbar.Brand>
+                </Nav>
             </Nav>
         </Navbar>
     );
