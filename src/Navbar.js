@@ -29,9 +29,9 @@ function NavBar() {
     return (
         <Navbar
             style={{
-                backgroundColor: "transparent",
-                transform: scrolling ? 'translateY(0)' : 'translateY(-100%)', // Change the transformation to hide navbar when scrolling up
-                transition: 'transform 0.3s ease-in-out',
+                backgroundColor: "black",
+                // transform: scrolling ? 'translateY(0)' : 'translateY(-100%)', // Change the transformation to hide navbar when scrolling up
+                // transition: 'transform 0.3s ease-in-out',
             }}
             variant="dark"
             className="fixed-top"
@@ -47,7 +47,7 @@ function NavBar() {
                 <Nav.Link href="#gallery"> Gallery</Nav.Link>
                 <Nav.Link href="#resources"> Resources</Nav.Link>
                 <Nav.Link href="#contact"> Contact Us</Nav.Link>
-                <Nav.Link href="https://forms.gle/2DvSRNtm4UhURNWeA"> APPLY TO BE A HACKER</Nav.Link>
+                <Nav.Link href="https://forms.gle/2DvSRNtm4UhURNWeA" style={{color:"white"}}><b>Apply to be a Hacker</b></Nav.Link>
             </Nav>
         </Navbar>
     );
