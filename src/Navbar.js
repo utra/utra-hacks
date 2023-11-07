@@ -31,7 +31,7 @@ function NavBar() {
     return (
         <Navbar
             style={{
-                backgroundColor: "black",
+                backgroundColor: "rgba(32, 32, 32, 0.409)",
                 // transform: scrolling ? 'translateY(0)' : 'translateY(-100%)', // Change the transformation to hide navbar when scrolling up
                 // transition: 'transform 0.3s ease-in-out',
             }}
@@ -52,8 +52,10 @@ function NavBar() {
                 <Nav.Link href="https://forms.gle/2DvSRNtm4UhURNWeA" style={{color:"white"}}><b>Apply to be a Hacker</b></Nav.Link>
 
                 {/*Right side of Navbar*/}
-                <Nav className="d-flex justify-content-end">
-                    <Navbar.Brand href="#home"><img src={mlh_logo} height = "90" width="80" alt="MLH Logo"/></Navbar.Brand>
+                <Nav className="d-flex position-relative">
+                    <Navbar.Brand href="#home" className="ml-auto" style={{position: "fixed", paddingLeft: "15%", top: "0"}}>
+                        <img src={mlh_logo}  height="200" width="150" alt="MLH Logo" className="position-absolute" style={{ zIndex: 1}}/>
+                    </Navbar.Brand>
                 </Nav>
             </Nav>
         </Navbar>
