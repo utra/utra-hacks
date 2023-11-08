@@ -14,6 +14,7 @@ import './Home.css';
 import "./Home Page Photos/stars.png"
 import reportWebVitals from './reportWebVitals';
 import Schedule from './Schedule';
+import Footer from './Footer';
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -52,6 +53,7 @@ root.render(
       <PhotoGallery/>
       <Resources/>
       <ContactUs/>
+      <Footer/>
     </div>
   </React.StrictMode> 
 );
