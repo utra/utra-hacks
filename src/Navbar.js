@@ -3,6 +3,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import utra_logo from './logos/utraLogoWhite.png';
+import mlh_logo from './logos/mlh_logo.svg';
+import { NavbarCollapse } from 'react-bootstrap';
 
 function NavBar() {
 
@@ -29,9 +31,9 @@ function NavBar() {
     return (
         <Navbar
             style={{
-                backgroundColor: "transparent",
-                transform: scrolling ? 'translateY(0)' : 'translateY(-100%)', // Change the transformation to hide navbar when scrolling up
-                transition: 'transform 0.3s ease-in-out',
+                backgroundColor: "rgba(32, 32, 32, 0.409)",
+                // transform: scrolling ? 'translateY(0)' : 'translateY(-100%)', // Change the transformation to hide navbar when scrolling up
+                // transition: 'transform 0.3s ease-in-out',
             }}
             variant="dark"
             className="fixed-top"
@@ -47,7 +49,14 @@ function NavBar() {
                 <Nav.Link href="#gallery"> Gallery</Nav.Link>
                 <Nav.Link href="#resources"> Resources</Nav.Link>
                 <Nav.Link href="#contact"> Contact Us</Nav.Link>
-                <Nav.Link href="https://forms.gle/2DvSRNtm4UhURNWeA"> APPLY TO BE A HACKER</Nav.Link>
+                <Nav.Link href="https://forms.gle/2DvSRNtm4UhURNWeA" style={{color:"white"}}><b>Apply to be a Hacker</b></Nav.Link>
+
+                {/*Right side of Navbar*/}
+                <Nav className="d-flex position-relative">
+                    <Navbar.Brand href="#home" className="ml-auto" style={{position: "fixed", paddingLeft: "15%", top: "0"}}>
+                        <img src={mlh_logo}  height="200" width="150" alt="MLH Logo" className="position-absolute" style={{ zIndex: 1}}/>
+                    </Navbar.Brand>
+                </Nav>
             </Nav>
         </Navbar>
     );
