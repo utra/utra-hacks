@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import utra_logo from './logos/UTRA_Logo_White.png';
+import utra_logo from './logos/UTRA_Logo_V4.1.png';
 import mlh_logo from './logos/mlh_logo.svg';
 import { Container } from 'react-bootstrap';
 
@@ -36,7 +36,7 @@ function NavBar() {
       >
         <Container>
           <Navbar.Brand href="#home">
-            <img className="d-inline-block align-top" src={utra_logo} width="95" alt="UTRA Logo" />
+            <img className="d-inline-block align-top" src={utra_logo} width="100" alt="UTRA Logo" style={{ zIndex:1 }}/>
           </Navbar.Brand>
   
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
