@@ -21,7 +21,7 @@ function ResourceCard({ resourceName, resourceURL, imageUrl }) {
 
 function Resources() {
     return (
-        <div id="resources" className="section">
+        <div id="resources" className="section" style={{ paddingTop: "12%" }}>
             <div className="container">
                 <h1 className="text-center">Resources</h1>
                 <div className="row justify-content-center"> {/* Center the row content */}

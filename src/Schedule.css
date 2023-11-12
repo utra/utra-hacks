@@ -1,3 +1,27 @@
+
+.robot-background {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url('./logos/robot.png') no-repeat;
+  background-size: contain;
+}
+
+.robot1 {
+  top: 10%;
+  left: 20%;
+}
+
+.robot2 {
+  top: 30%;
+  left: 60%;
+}
+
+.robot3 {
+  bottom: 10%;
+  right: 10%;
+}
+
 .list-timeline {
   margin: 0;
   padding: 5px 0;

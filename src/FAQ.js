@@ -5,7 +5,7 @@ import './FAQ.css';
 export default function FAQ() {
   return (
     
-    <Container id = "faq" className="section">
+    <Container id = "faq" className="section" style={{ paddingTop: "12%" }}>
       <h1 className="text-center faq-title">Frequently Asked Questions</h1>
       <Accordion className="accordion-container">
           <Accordion.Item eventKey="0" className="accordion-item">

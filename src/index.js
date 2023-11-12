@@ -50,7 +50,6 @@ root.render(
       <Apply/>
       <FAQ/>
       <Sponsors/>
-      <PhotoGallery/>
       <Resources/>
       <ContactUs/>
       <Footer/>
