@@ -35,14 +35,14 @@ function NavBar() {
         className={`fixed-top ${scrolling ? 'scrolling' : ''}`}
       >
         <Container>
-          <Navbar.Brand href="#home">
-            <img className="d-inline-block align-top" src={utra_logo} width="100" alt="UTRA Logo" style={{ zIndex:1 }}/>
+          <Navbar.Brand href="#home" >
+            <img className="d-flex position-relative" src={utra_logo} width="100" alt="UTRA Logo" style={{ right: "-55px", zIndex:1 }}/>
           </Navbar.Brand>
   
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" className="position-fixed start-1" />
   
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto" style={{paddingLeft:"10%"}}>
             <Nav.Link href="#home"> Home</Nav.Link>
                 <Nav.Link href="#about"> About</Nav.Link>
                 <Nav.Link href="#schedule"> Schedule</Nav.Link>

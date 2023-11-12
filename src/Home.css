@@ -5,17 +5,31 @@
   background-color: black;
 }
 
-@media screen and (max-width: 600px) {
-  .subtitle {
+@media screen and (max-width: 650px) {
+  .subtitle span{
     font-size: 12px;
   }
   .glowing-text span {
     font-size: 60px;
     text-align: top;
   }
+  .skyline span{
+    text-align: bottom;
+    padding-top: 20%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .subtitle {
+    font-size: 10px;
+  }
+  .glowing-text span {
+    font-size: 35px;
+    text-align: top;
+  }
   .skyline{
     text-align: bottom;
-    padding-bottom: 0%;
+    padding-top: 20%;
   }
 }
 
