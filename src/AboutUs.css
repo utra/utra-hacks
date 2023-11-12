@@ -9,4 +9,12 @@
 }
 
 
-  
+@media screen and (max-width: 600px) {
+    .title{
+        font-size: 1.9rem;
+    }
+
+    .subtitle{
+        font-size: 0.9.rem;
+    }
+  }

@@ -37,9 +37,9 @@ const ContactUs = () => {
 
     if (!submitted) {
         return (
-            <div id = "contact" className="bg text-center pt-5 mb-3 section">
+            <div id = "contact" className="bg text-center section" style={{ paddingTop: "12%" }}>
                 <h1>Contact Us</h1>
-                <Form onSubmit={handleSubmit} className='w-50 m-auto align-text-center'>
+                <Form onSubmit={handleSubmit} className='w-50 m-auto align-text-center' >
                     <Row className="pt-5 mb-3">
                         <Form.Group as={Col} controlId = "contact_form.name">
                             <Form.Label>Full Name</Form.Label>

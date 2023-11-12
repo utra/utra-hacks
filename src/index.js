@@ -7,12 +7,10 @@ import AboutUs from './AboutUs';
 import Apply from './Apply';
 import FAQ from './FAQ';
 import Sponsors from './Sponsors';
-import PhotoGallery from './PhotoGallery';
 import Resources from './Resources';
 import ContactUs from './ContactUs';
 import './Home.css';
 import "./Home Page Photos/stars.png"
-import reportWebVitals from './reportWebVitals';
 import Schedule from './Schedule';
 import Footer from './Footer';
 
@@ -50,7 +48,6 @@ root.render(
       <Apply/>
       <FAQ/>
       <Sponsors/>
-      <PhotoGallery/>
       <Resources/>
       <ContactUs/>
       <Footer/>
