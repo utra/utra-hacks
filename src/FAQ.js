@@ -33,16 +33,12 @@ export default function FAQ() {
             <Accordion.Header>What are the themes for 2024 HACKS?</Accordion.Header>
             <Accordion.Body>
                   <p>
-                      1. Beginner theme: “Robots for Everyday Life - A Better You!”{" "}
-                      <br />
-                      2. Advanced theme: “Robots for Sustainability and Conservation
-                      - A Better Canada!" <br />
-                      <br />These themes provide a specific focus on robotics and
-                      encourage participants to think about how robots can make a
-                      positive impact on everyday life and environmental
-                      sustainability. It allows participants to explore a wide range
-                      of applications and challenges, catering to both beginners and
-                      professionals.
+                    This year’s themes are: healthcare, space and the environment! 
+                    These themes provide a specific focus on robotics and encourage participants to think about 
+                    how robots can make a positive impact on everyday life and beyond. We encourage participants to 
+                    make their project their own. (For example, autonomous vehicles could fit into any category depending 
+                    on how you frame your robot!) It allows participants to explore a wide range of applications and 
+                    challenges, catering to both beginners and professionals.
                   </p>
             </Accordion.Body>
           </Accordion.Item>
