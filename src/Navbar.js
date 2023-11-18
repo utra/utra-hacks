@@ -39,7 +39,7 @@ function NavBar() {
             <img className="d-flex position-relative" src={utra_logo} width="100" alt="UTRA Logo" style={{ right: "-55px", zIndex:1 }}/>
           </Navbar.Brand>
   
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" className="position-fixed start-1" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" className="position-relative start-1" />
   
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto" style={{paddingLeft:"10%"}}>
