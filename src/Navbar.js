@@ -36,7 +36,7 @@ function NavBar() {
       >
         <Container>
           <Navbar.Brand href="#home" >
-            <img className="d-flex position-relative" src={utra_logo} width="100" alt="UTRA Logo" style={{ right: "-55px", zIndex:1 }}/>
+            <img className="d-flex position-relative" src={utra_logo} width="100" alt="UTRA Logo"/>
           </Navbar.Brand>
   
           <Navbar.Toggle aria-controls="responsive-navbar-nav" className="position-relative start-1" />
