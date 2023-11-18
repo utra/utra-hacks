@@ -49,7 +49,7 @@ root.render(
       <FAQ/>
       <Sponsors/>
       <Resources/>
-      <ContactUs/>
+      {/* <ContactUs/> */}
       <Footer/>
     </div>
   </React.StrictMode> 
