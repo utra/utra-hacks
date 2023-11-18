@@ -55,14 +55,16 @@ function Home() {
               <span className="letter letter-k">K</span>
               <span className="letter letter-k">S</span>
             </div>
-          <div className="subtitle" style={{ fontSize: "20px", color: "white" }}>
-            <b>University of Toronto Robotics Association</b>
-          </div>
-          <div className="section" style={{ paddingBottom: "100px" }}>
-            <main-event className="text-center">
-              <b>January 20-21, 2024</b>
-            </main-event>
-          </div>
+
+            <div className="subtitle" style={{ fontSize: "20px", color: "white" }}>
+              <b>University of Toronto Robotics Association</b>
+            </div>
+
+            <div className="section" style={{ paddingBottom: "100px" }}>
+              <main-event className="text-center">
+                <b>January 20-21, 2024</b>
+              </main-event>
+            </div>
           </Container>
 
         </div>
