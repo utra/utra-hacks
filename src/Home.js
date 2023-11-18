@@ -60,10 +60,8 @@ function Home() {
               <b>University of Toronto Robotics Association</b>
             </div>
 
-            <div className="section" style={{ paddingBottom: "100px" }}>
-              <main-event className="text-center">
-                <b>January 20-21, 2024</b>
-              </main-event>
+            <div style={{ paddingTop:"30px", paddingBottom: "100px", textAlign: "center", textShadow: "#3533cd 1px 0 20px, #3533cd 1px 0 20px"}}>
+                <h1><b>January 20-21, 2024</b></h1>
             </div>
           </Container>
 
