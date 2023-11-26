@@ -21,9 +21,9 @@ function ResourceCard({ resourceName, resourceURL, imageUrl }) {
 
 function Resources() {
     return (
-        <div id="resources" className="section" style={{ paddingTop: "12%" }}>
+        <div id="resources" className="section" style={{ paddingTop: "12%" , paddingBottom:"15%"}}>
             <div className="container">
-                <h1 className="text-center">Resources</h1>
+                <h1 className="text-center" style={{paddingBottom:"5%"}}>Resources</h1>
                 <div className="row justify-content-center"> {/* Center the row content */}
                     <ResourceCard
                         resourceName="Hackathon Code Of Conduct"

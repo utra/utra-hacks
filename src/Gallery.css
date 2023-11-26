@@ -1,62 +1,18 @@
-/* Gallery Container */
-.gallery-container {
-display: flex;
-align-items: center;
-overflow: hidden;
-position: relative;
-max-width: 800px; /* Adjust to your preferred max width */
-}
-
-/* Navigation Arrows */
-.navigation-arrow {
-position: absolute;
-top: 0;
-bottom: 0;
-width: 20px; /* Adjust the width as needed */
-background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-); /* Adjust the background color and opacity */
-display: flex;
-align-items: center;
-justify-content: center;
-cursor: pointer;
-transition: background-color 0.3s ease-in-out;
-}
-
-.navigation-arrow:hover {
-background-color: rgba(
-    0,
-    0,
-    0,
-    0.8
-); /* Adjust the hover background color and opacity */
-}
-
-/* Left Navigation Arrow */
-.left-arrow {
-left: 0;
-}
-
-/* Right Navigation Arrow */
-.right-arrow {
-right: 0;
-}
-
-/* Image Container */
-.image-container {
-width: 100%;
-transition: transform 0.3s ease-in-out;
-position: center;
-align-items: center;
-}
-
-.image-container img {
-display: block;
-width: 100%;
-height: auto;
-position: center;
-align-items: center;
-}  
+.gallery-wrapper {
+    width: absolute; 
+    height: absolute;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto; 
+  }
+  
+  .gallery-container {
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+    position:inherit;
+    object-fit:contain;
+    margin: 0 0; 
+  }
