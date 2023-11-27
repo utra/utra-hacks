@@ -13,6 +13,7 @@ import './Home.css';
 import "./Home Page Photos/stars.png"
 import Schedule from './Schedule';
 import Footer from './Footer';
+import Gallery from './Gallery';
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -50,6 +51,7 @@ root.render(
       <Sponsors/>
       <Resources/>
       {/* <ContactUs/> */}
+      <Gallery/>
       <Footer/>
     </div>
   </React.StrictMode> 
