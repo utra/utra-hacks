@@ -61,7 +61,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="gallery-wrapper" style={{paddingBottom:"5%"}}>
+    <div id="gallery" className="gallery-wrapper" style={{paddingBottom:"5%"}}>
       <h1 className="text-center faq-title">Gallery</h1>
       <Carousel
         activeIndex={index}
