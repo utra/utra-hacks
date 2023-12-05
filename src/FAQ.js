@@ -33,7 +33,7 @@ export default function FAQ() {
             <Accordion.Header>What are the themes for 2024 HACKS?</Accordion.Header>
             <Accordion.Body>
                   <p>
-                    This year’s themes are: healthcare, space and the environment! 
+                    This year's themes are: healthcare, space and the environment! 
                     These themes provide a specific focus on robotics and encourage participants to think about 
                     how robots can make a positive impact on everyday life and beyond. We encourage participants to 
                     make their project their own. (For example, autonomous vehicles could fit into any category depending 
@@ -53,7 +53,7 @@ export default function FAQ() {
           <Accordion.Item eventKey="5" className="accordion-item">
             <Accordion.Header> What if I've never been to a hackathon before?</Accordion.Header>
             <Accordion.Body>
-                UTRA Hacks welcomes students of all skill levels. Many students attend Hack the North as their first hackathon, and they always have a blast! We’ll provide tech resources (including hardware), mentors, and workshops to help you with your project. Hackathons can be a great place to learn new skills in a short amount of time. Just be eager to learn, and excited to meet lots of awesome people.
+                UTRA Hacks welcomes students of all skill levels. Many students attend Hack the North as their first hackathon, and they always have a blast! We'll provide tech resources (including hardware), mentors, and workshops to help you with your project. Hackathons can be a great place to learn new skills in a short amount of time. Just be eager to learn, and excited to meet lots of awesome people.
             </Accordion.Body>
           </Accordion.Item>
 
@@ -94,7 +94,7 @@ export default function FAQ() {
           <Accordion.Item eventKey="11" className="accordion-item">
             <Accordion.Header>How many people can be on a team? Do I need to have a team to apply?</Accordion.Header>
             <Accordion.Body>
-                Hackers may form teams of up to 4 people. There are no restrictions for who they can be, so you can team up with hackers from any school, country, or experience level. Teams can be formed before or during the event at hackers' own discretion.
+                Hackers may form teams of up to 6 people. There are no restrictions for who they can be, so you can team up with hackers from any school, country, or experience level. Teams can be formed before or during the event at hackers' own discretion.
             </Accordion.Body>
           </Accordion.Item>
 

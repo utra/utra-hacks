@@ -1,5 +1,5 @@
 import React from 'react';
-import code_of_conduct_pic from "./Home Page Photos/code_of_conduct.png"
+import code_of_conduct_pic from "./Home Page Photos/code_of_conduct.png";
 import './Resources.css'; // Import your custom CSS for the hover effect
 
 function ResourceCard({ resourceName, resourceURL, imageUrl }) {
