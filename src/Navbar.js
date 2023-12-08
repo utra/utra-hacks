@@ -52,8 +52,7 @@ function NavBar() {
                 <Nav.Link href="#resources"> Resources</Nav.Link>
                 <Nav.Link href="#gallery"> Gallery</Nav.Link>
                 {/* <Nav.Link href="#contact"> Contact Us</Nav.Link> */}
-                <Nav.Link href="https://forms.gle/2DvSRNtm4UhURNWeA" style={{ color: "white" }}><b>Apply to be a Hacker</b>
-              </Nav.Link>
+                {/* <Nav.Link href="https://forms.gle/2DvSRNtm4UhURNWeA" style={{ color: "white" }}><b>Apply to be a Hacker</b> </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
